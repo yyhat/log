@@ -56,7 +56,6 @@ public class LogUtils {
 					+ System.currentTimeMillis() + ".txt");
 			sLogFileName = sub.getAbsolutePath();
 		}
-		Log.i("test", "getLogFileName: " + sLogFileName);
 		return sLogFileName;
 	}
 
@@ -66,7 +65,6 @@ public class LogUtils {
 					+ System.currentTimeMillis() + ".txt");
 			sCrashFileName = sub.getAbsolutePath();
 		}
-		Log.i("test", "getCrashFileName: " + sCrashFileName);
 		return sCrashFileName;
 	}
 }
